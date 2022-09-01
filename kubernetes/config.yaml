@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: sigueme-configmap
+    labels:
+        stage: production
+        name: sigueme-configmap
+        app: hades
+data:
+    node_env: production
+    port: "3000"
